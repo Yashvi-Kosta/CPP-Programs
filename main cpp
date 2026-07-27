@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
+
 int main (){
-    cout<<"yashvi";
-    cout<< endl;
-    cout<<"kosta";
+
+    // variable define
+    int age = 17;
+    cout << "my age is: " << age << endl;
+    
     return 0; 
 }
