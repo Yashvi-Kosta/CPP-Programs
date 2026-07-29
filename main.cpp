@@ -2,11 +2,10 @@
 using namespace std;
 
 
-int main (){
-
-    //variable decalre
+int main() {
+    // decalre variable
     int marks;
-    cout << "Enter your marks"<< endl;
+    float << "Enter your marks: ";
 
     //input le rahe hai yaha par 
     cin >> marks;
