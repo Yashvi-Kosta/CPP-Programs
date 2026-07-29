@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+
+int main (){
+    //variable decalre
+    int marks
+    cout<<"heloo";
+    return 0; 
+}
