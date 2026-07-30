@@ -18,18 +18,33 @@ int main() {
 
 //     
 
-int marks = 100;
-if (marks>90) {
-    cout<<"A";
-}
-else if(marks > 80) {
-cout << "B";
-}
-else if (marks > 70) {
-    cout << "c";
-}
-else if (marks > 60) {
-cout << "D";
-}
+// int marks = 100;
+// if (marks>90) {
+//     cout<<"A";
+// }
+// else if(marks > 80) {
+// cout << "B";
+// }
+// else if (marks > 70) {
+//     cout << "c";
+// }
+// else if (marks > 60) {
+// cout << "D";
+// 
+int height;
+cout << "Enter height in feet" << endl;
+cin >> height;
+
+int weight;
+cout << "Enter your weight; " << endl;
+cin >> weight;
+
+if(weight > 70) 
+    cout << "you got a good BMI" << endl;
+
+else {
+    cout << "bhai tujhse na ho paega";
+    }
+    cout << "complan dila du" << endl;
 return 0;
 }
