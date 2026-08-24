@@ -66,7 +66,11 @@ int main() {
 
 // BITWISE OPERATOR
 // cout << (5 & 4) << endl;
-cout << (5 | 4) << endl;
+// cout << (5 | 4) << endl;
+// cout << (~5) << endl;
+
+cout << (5 ^ 4) << endl;
+cout << (5 << 4) << endl;
 return 0;
 }
 
