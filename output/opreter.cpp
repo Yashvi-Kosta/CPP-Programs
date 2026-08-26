@@ -68,9 +68,15 @@ int main() {
 // cout << (5 & 4) << endl;
 // cout << (5 | 4) << endl;
 // cout << (~5) << endl;
+// cout << (5 ^ 4) << endl;
+//cout << (5 >> 4) << endl;
+//cout << (5 << 3) << endl;
+ int a = 15, b = 5;
 
-cout << (5 ^ 4) << endl;
-cout << (5 << 4) << endl;
+    cout << "Sum = " << a + b << endl;
+    cout << "Difference = " << a - b << endl;
+    cout << "Product = " << a * b << endl;
+    cout << "Division = " << a / b << endl;
 return 0;
 }
 

@@ -1,7 +1,7 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main() {
+// int main() {
 
     // int budget;
     // cout << "enter your budget: " << endl;
@@ -31,20 +31,39 @@ int main() {
 // else if (marks > 60) {
 // cout << "D";
 // 
-int height;
-cout << "Enter height in feet" << endl;
-cin >> height;
+// int height;
+// cout << "Enter height in feet" << endl;
+// cin >> height;
 
-int weight;
-cout << "Enter your weight; " << endl;
-cin >> weight;
+// int weight;
+// cout << "Enter your weight; " << endl;
+// cin >> weight;
 
-if(weight > 70) 
-    cout << "you got a good BMI" << endl;
+// if(weight > 70) 
+//     cout << "you got a good BMI" << endl;
 
-else {
-    cout << "bhai tujhse na ho paega";
-    }
-    cout << "complan dila du" << endl;
+// else {
+//     cout << "bhai tujhse na ho paega";
+//     }
+//     cout << "complan dila du" << endl;
+// return 0;
+// }
+
+
+
+#include<iostream>
+using namespace std;
+
+int decimalToBinaryMthod1(int n){
+    //division method 
+    while (n > 0) {
+    int bit = n % 2;
+    cout << bit << endl;
+    n =n / 2;
+} 
 return 0;
+} int main (){
+    int n;
+    cin>>n;
+ int binary = decimalToBinaryMthod1(n);
 }
